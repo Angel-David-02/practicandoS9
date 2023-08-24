@@ -1,8 +1,15 @@
-@server = https://texai-glowing-couscous-pgprxq9gwh76xw-8080.preview.app.github.dev
+@server = https://supreme-umbrella-5w94pvggx662v9vq-8080.app.github.dev
 ###
-GET {{server}}/api/employees 
+GET {{server}}/api/instrumentos 
 ###
-POST {{server}}/api/employees
+POST {{server}}/api/instrumentos
 Content-Type: application/json
 
-{"firstName": "Mi", "lastName": "Aplicación", "description": "React"}
+{"nombre": "Quena", "categoria": "viento", "descripcion": "buen instrumento xd"}
+###
+GET {{server}}/api/musico
+###
+POST {{server}}/api/musico
+Content-Type: application/json
+
+{"nombre": "pxndx"}
